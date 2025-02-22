@@ -6,11 +6,14 @@ int main(){
     x = 21; //initialization
     int y = 20; // declaration & initialization
 
-    int age = 22;
-    float weight = 72.5;
-    char faveletter = 'm';
+    int age = 20;
+    float weight = 45.5;
+    char faveletter = 'N';
     char name[] = "Mira";
 
-    printf("You are &d years old.",age);
+    printf("Hello %s\n",name);
+    printf("You are %d years old.\n",age);
+    printf("Your weight is %f\n",weight);
+    printf("My Favorite letter is %c\n",faveletter);
     return 0;
 }
