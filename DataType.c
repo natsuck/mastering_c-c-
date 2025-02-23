@@ -23,7 +23,19 @@ int main(){
     unsigned long long int m = 18446744073709551615U;     //8bytes ( 0 to +18 quintillion)
 
     printf("%c\n",a);
-    printf("%s",b);
+    printf("%s\n",b);
+    printf("%f\n",c);
+    printf("%lf\n",d);
+    printf("%d\n",e);
+    printf("%d\n",f);
+    printf("%d\n",g);
+    printf("%d\n",h);
+    printf("%d\n",i);
+    printf("%d\n",j);
+    printf("%u\n",k);
+    printf("%lld\n",l);
+    printf("%llu",m);
+
 
     return 0;
 }
